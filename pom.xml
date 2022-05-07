@@ -20,6 +20,7 @@
     <modules>
         <module>spring-session-8080</module>
         <module>spring-session-8081</module>
+        <module>jwt-session</module>
     </modules>
     <dependencies>
         <dependency>
@@ -57,6 +58,18 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-core</artifactId>
             <version>5.1.6.RELEASE</version>
+        </dependency>
+
+        <!-- JWT依赖 -->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>3.4.0</version>
         </dependency>
 
     </dependencies>
